@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой новогодний слайдер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        
+        <div class="slider">
+            <div class="slides-container">
+                <div class="slide active">
+                    <img src="https://novate.ru/files/u35762/novuygod6.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://i.pinimg.com/originals/b2/2a/71/b22a71e483135563f0cf23b8a64eae06.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://avatars.mds.yandex.net/i?id=a725acddd4e35d0a0f325f5a1074054d88e73804-4570996-images-thumbs&n=13" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://avatars.mds.yandex.net/i?id=54987b0bef495e4c80f71ce3e3245e9c8eed3387-5168030-images-thumbs&n=13" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://avatars.mds.yandex.net/i?id=a3558ee409a1822f4f05cdcd2b2747e6_l-4353501-images-thumbs&n=13" alt="">
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button class="btn prev-btn">←</button>
+                <button class="btn next-btn">→</button>
+            </div>
+            
+            <div class="counter">
+                <span id="current">1</span> / <span id="total">5</span>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            Нажмите на стрелки для переключения фото
+        </div>
+    </div>
+    
+    <script src="new.js"></script>
+</body>
+</html>
